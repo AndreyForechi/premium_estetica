@@ -28,7 +28,7 @@ export function App() {
           <a href="#home"><img
             src="/logo.jpg"
             alt="Logo"
-            className="w-14 rounded-full"
+            className="w-13 rounded-full"
           /></a>
 
           <nav className="hidden md:flex gap-8 text-sm text-zinc-300">
