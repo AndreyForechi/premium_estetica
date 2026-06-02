@@ -9,7 +9,7 @@ export function Hero() {
         <section className="min-h-screen relative flex items-center justify-center px-6 text-center" id="home">
             <div className="absolute top-0 left-0 w-full h-40 bg-linear-to-b from-black/80 to-transparent z-0" />
             <img src="/bg.webp" alt="" className="absolute -z-10 inset-0 overflow-hidden object-cover w-full h-full blur-[3px]" />
-            <div className="absolute -bottom-2 left-0 w-full h-40 bg-linear-to-t from-black to-transparent z-0" />
+            <div className="absolute -bottom-2 left-0 w-full h-20 bg-linear-to-t from-black to-transparent z-0" />
             <div className="max-w-5xl">
                 <motion.h1
                     initial={{ opacity: 0, y: 35 }}
@@ -55,6 +55,7 @@ export function Hero() {
                     </a>
                 </motion.div>
             </div>
+
         </section>
     )
 }
